@@ -21,7 +21,8 @@ To maintain code clarity and scalability, the application logic is separated int
 **1. Clone the repository and navigate to the project directory:**
 ```bash
 git clone https://github.com/AlexTheDagon/ai-interviewer
-cd ai-interviewer```
+cd ai-interviewer
+```
 
 **2. Create and activate a virtual environment:**
 ```bash
@@ -31,16 +32,20 @@ venv\Scripts\activate
 
 # macOS/Linux
 python3 -m venv venv
-source venv/bin/activate```
+source venv/bin/activate
+```
 
 **3. Install the required dependencies:**
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 **4. Add your API Key:**
 ```bash
-GOOGLE_API_KEY="your_actual_api_key_here"```
+GOOGLE_API_KEY="your_actual_api_key_here"
+```
 
 **5. Run the application:**
 ```bash
-python app_ui.py```
+python app_ui.py
+```
