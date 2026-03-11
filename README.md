@@ -20,13 +20,18 @@ To maintain code clarity and scalability, the application logic is separated int
 
 **1. Clone the repository and navigate to the project directory:**
 ```bash
-git clone <your-repo-link-here>
+git clone https://github.com/AlexTheDagon/ai-interviewer
 cd ai-interviewer```
 
 **2. Create and activate a virtual environment:**
 ```bash
-git clone <your-repo-link-here>
-cd ai-interviewer```
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate```
 
 **3. Install the required dependencies:**
 ```bash
