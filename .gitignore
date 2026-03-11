@@ -1,0 +1,13 @@
+# Environments
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables (CRITICAL: Do not commit your API keys!)
+.env
+
+# Saved local data (optional, keeps your repo clean of test interviews)
+interviews/
